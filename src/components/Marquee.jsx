@@ -11,9 +11,9 @@ function PartnerShowcase() {
     ];
 
     return (
-        <section className="bg-gray-100 py-20" id="companies">
+        <section className="bg-gray-100 py-36" id="companies">
             <div className="container mx-auto text-center mb-8 px-10">
-                <h2 className="text-4xl py-10 font-thin">
+                <h2 className="text-4xl pb-10 font-thin">
                     Trusted by Leading Companies
                 </h2>
             </div>

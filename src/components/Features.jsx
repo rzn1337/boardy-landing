@@ -39,16 +39,16 @@ const Features = () => {
   ];
 
   return (
-    <section id="features" className="py-20 bg-black">
+    <section id="features" className="py-20 bg-gray-100">
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-thin mb-8 text-white py-10">Features That Make Collaboration Effortless</h2>
+        <h2 className="text-4xl font-thin mb-8 text-black py-10">Features That Make Collaboration Effortless</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
-            <div key={index} className="bg-gray-100 p-6 rounded-lg">
+            <div key={index} className="bg-black p-6 rounded-lg">
               <div className="text-orange-600 mb-4">{feature.icon}</div>
-              <h3 className="text-black text-xl font-semibold mb-4">{feature.title}</h3>
-              <p className="text-black">{feature.description}</p>
+              <h3 className="text-white text-xl font-semibold mb-4">{feature.title}</h3>
+              <p className="text-white">{feature.description}</p>
             </div>
           ))}
         </div>
