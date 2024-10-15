@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { SignatureIcon } from "lucide-react";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -8,8 +7,7 @@ const Navbar = () => {
         <nav className="bg-black shadow-md fixed w-full top-0 z-50">
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
                 <div className="flex gap-2 align-middle">
-                    <SignatureIcon color="white"/>
-                    <a href="#" className="text-2xl font-bold text-white">
+                    <a href="#" className="text-2xl font-thin text-white">
                         boardy.
                     </a>
                 </div>
@@ -53,7 +51,7 @@ const Navbar = () => {
                 {/* CTA Button */}
                 <a
                     href="#get-started"
-                    className="hidden md:block bg-white text-black py-2 px-6 rounded-md hover:bg-orange-500 transition duration-300"
+                    className="hidden md:block font-thin bg-white text-black py-2 px-6 rounded-md hover:bg-orange-500 transition duration-300"
                 >
                     Get Started
                 </a>

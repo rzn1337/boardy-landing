@@ -39,9 +39,9 @@ const Features = () => {
   ];
 
   return (
-    <section id="features" className="py-20 bg-gray-100">
+    <section id="features" className="py-20 bg-black">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-8">Features That Make Collaboration Effortless</h2>
+        <h2 className="text-4xl font-thin mb-8 text-white py-10">Features That Make Collaboration Effortless</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
