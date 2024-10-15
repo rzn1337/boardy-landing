@@ -1,13 +1,11 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import PartnerShowcase from "./components/PartnerShowcase";
+import { Hero, Navbar, Marquee } from "./components";
 
 function App() {
     return (
-        <>  
+        <>
             <Navbar />
             <Hero />
-            <PartnerShowcase />
+            <Marquee />
         </>
     );
 }
