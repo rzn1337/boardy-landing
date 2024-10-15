@@ -53,7 +53,7 @@ const Navbar = () => {
                 {/* CTA Button */}
                 <a
                     href="#get-started"
-                    className="hidden md:block bg-white text-black py-2 px-6 rounded-md hover:bg-blue-600 transition duration-300"
+                    className="hidden md:block bg-white text-black py-2 px-6 rounded-md hover:bg-orange-500 transition duration-300"
                 >
                     Get Started
                 </a>

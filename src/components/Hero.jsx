@@ -30,7 +30,7 @@ const Hero = () => {
                 {/* Hero Image */}
                 <div className="mt-10">
                     <img
-                        src="/public/heroimage.png"
+                        src="/images/heroimage.png"
                         alt="Boardy app in action"
                         className="mx-auto rounded-lg shadow-lg w-full md:w-3/4"
                     />
