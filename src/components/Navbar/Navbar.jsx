@@ -45,7 +45,7 @@ const Navbar = () => {
                 </ul>
 
                 <div>
-                    <Button label="Sign up" style="text-sm" type="button" />
+                    <Button label="Sign up" style="text-sm bg-gray-200" type="button" />
                 </div>
             </div>
         </nav>

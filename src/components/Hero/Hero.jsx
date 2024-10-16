@@ -16,21 +16,12 @@ const Hero = () => {
                     </p>
                 </div>
 
-                {/* CTA Buttons */}
+                
                 <div className="flex justify-center space-x-4">
-                    {/* <a
-                        href="#get-started"
-                        className="bg-white flex gap-2 justify-between text-black py-3 px-6 rounded-md font-medium hover:bg-red-400 transition duration-300"
-                    >
-                        Start a whiteboard
-                        <MoveRightIcon />
-                    </a> */}
-                    <Button label="Start a whiteboard" style="text-lg">
+                    <Button label="Start a whiteboard" style="text-lg bg-gray-200">
                         <MoveRightIcon />
                     </Button>
                 </div>
-
-                {/* Hero Image */}
                 <div className="mt-10">
                     <img
                         src="/images/heroimage.png"

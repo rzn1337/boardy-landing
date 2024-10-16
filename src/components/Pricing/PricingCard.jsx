@@ -1,3 +1,5 @@
+import Button from "../Button";
+
 const PricingCard = ({
     title,
     description,
@@ -36,9 +38,11 @@ const PricingCard = ({
                     ))}
                 </ul>
             </div>
-            <button className="mt-6 w-full bg-black text-white py-2 rounded-lg hover:bg-gray-100 hover:text-black transition-colors duration-500">
-                {buttonText}
-            </button>
+            {
+                <div className="mt-6 w-full text-white py-2 rounded-lg flex justify-center">
+                    <Button label={buttonText} style="bg-black text-white" />
+                </div>
+            }
         </div>
     );
 };

@@ -6,8 +6,8 @@ const Footer = () => {
             <div className="container mx-auto px-20">
                 <div className="flex flex-col md:flex-row justify-between">
                     <div className="w-full md:w-1/2 mb-8 md:mb-0">
-                        <div className="mb-8">
-                            <h2 className="text-xl font-light">boardy.</h2>
+                        <div className="pb-4">
+                            <h2 className="font-light">boardy.</h2>
                         </div>
 
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-8">
@@ -33,7 +33,7 @@ const Footer = () => {
                                 )
                             )}
                             <div>
-                                <div className="flex justify-start md:justify-end space-x-6 mb-8">
+                                <div className="flex justify-start md:justify-end space-x-6 pb-2">
                                     {["fb", "x", "yt", "in", "ig"].map(
                                         (item, i) => (
                                             <a
