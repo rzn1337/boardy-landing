@@ -1,4 +1,5 @@
 import { MoveRightIcon } from "lucide-react";
+import Button from "../Button";
 
 const Hero = () => {
     return (
@@ -17,13 +18,16 @@ const Hero = () => {
 
                 {/* CTA Buttons */}
                 <div className="flex justify-center space-x-4">
-                    <a
+                    {/* <a
                         href="#get-started"
-                        className="bg-white flex gap-2 justify-between text-blue-500 py-3 px-6 rounded-md font-bold hover:bg-gray-100 transition duration-300"
+                        className="bg-white flex gap-2 justify-between text-black py-3 px-6 rounded-md font-medium hover:bg-red-400 transition duration-300"
                     >
-                        Start a whiteboard R
+                        Start a whiteboard
                         <MoveRightIcon />
-                    </a>
+                    </a> */}
+                    <Button label="Start a whiteboard" style="text-lg">
+                        <MoveRightIcon />
+                    </Button>
                 </div>
 
                 {/* Hero Image */}
