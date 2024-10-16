@@ -12,6 +12,15 @@ export default {
             animation: {
                 slide: "slide 30s infinite linear",
             },
+            fontFamily: {
+                sans: ["Montserrat", "sans-serif"], // Set Montserrat as the default sans font
+            },
+            fontWeight: {
+                extraLight: 200,
+                light: 300,
+                normal: 400,
+                bold: 700,
+            },
         },
     },
     plugins: [],

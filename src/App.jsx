@@ -1,4 +1,5 @@
 import { Hero, Navbar, Marquee, Features, Footer, Pricing } from "./components";
+import './index.css';
 
 function App() {
     return (
