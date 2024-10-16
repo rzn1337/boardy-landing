@@ -3,3 +3,5 @@ export const footerText = {
     Resources: ["Help Center", "Safety", "Our Partners"],
     Legal: ["Terms of Service", "Privacy Policy", "Cookie Policy"],
 };
+
+export const socials = []
