@@ -36,7 +36,7 @@ const Card = ({
                     ))}
                 </ul>
             </div>
-            <button className="mt-6 w-full bg-black text-white py-2 rounded-lg hover:bg-blue-600 transition-colors duration-300">
+            <button className="mt-6 w-full bg-black text-white py-2 rounded-lg hover:bg-gray-100 hover:text-black transition-colors duration-500">
                 {buttonText}
             </button>
         </div>
