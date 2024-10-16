@@ -1,4 +1,4 @@
-import { Hero, Navbar, Marquee, Features, Footer, Pricing } from "./components";
+import { Hero, Navbar, Partners, Features, Footer, Pricing } from "./components";
 import './index.css';
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
         <>
             <Navbar />
             <Hero />
-            <Marquee />
+            <Partners />
             <Features />
             <Pricing />
             <Footer />

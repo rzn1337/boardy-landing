@@ -1,9 +1,8 @@
+import { footerText } from "./footerContent";
+
 const Footer = () => {
-    const Company = ["About us", "Our offerings", "Blog"];
-    const Resources = ["Help Center", "Safety", "Our Partners"];
-    const Legal = ["Terms of Service", "Privacy Policy", "Cookie Policy"];
     return (
-        <footer className="bg-black text-base text-white py-20">
+        <footer id="footer" className="bg-black text-base text-white py-20">
             <div className="container mx-auto px-20">
                 <div className="flex flex-col md:flex-row justify-between">
                     {/* Left Column */}
@@ -13,48 +12,27 @@ const Footer = () => {
                         </div>
 
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-8">
-                            <div className="flex flex-col space-y-2 my-8">
-                                <h3 className="font-semibold text-white text-sm">
-                                    Company
-                                </h3>
-                                {Company.map((c) => (
-                                    <a
-                                        href="#"
-                                        key={c}
-                                        className="text-gray-400 text-xs hover:text-white"
+                            {Object.entries(footerText).map(
+                                ([section, links]) => (
+                                    <div
+                                        key={section}
+                                        className="flex flex-col space-y-2 my-8"
                                     >
-                                        {c}
-                                    </a>
-                                ))}
-                            </div>
-                            <div className="flex flex-col space-y-2 my-8">
-                                <h3 className="font-semibold text-white text-sm">
-                                    Resources
-                                </h3>
-                                {Resources.map((r) => (
-                                    <a
-                                        href="#"
-                                        key={r}
-                                        className="text-gray-400 text-xs hover:text-white"
-                                    >
-                                        {r}
-                                    </a>
-                                ))}
-                            </div>
-                            <div className="flex flex-col space-y-2 my-8">
-                                <h3 className="font-semibold text-white text-sm">
-                                    Legal
-                                </h3>
-                                {Legal.map((l) => (
-                                    <a
-                                        href="#"
-                                        key={l}
-                                        className="text-gray-400 text-xs hover:text-white"
-                                    >
-                                        {l}
-                                    </a>
-                                ))}
-                            </div>
+                                        <h3 className="font-semibold text-white text-sm">
+                                            {section}
+                                        </h3>
+                                        {links.map((c) => (
+                                            <a
+                                                href="#"
+                                                key={c}
+                                                className="text-gray-400 text-xs hover:text-white"
+                                            >
+                                                {c}
+                                            </a>
+                                        ))}
+                                    </div>
+                                )
+                            )}
                             <div>
                                 <div className="flex justify-start md:justify-end space-x-6 mb-8">
                                     <a href="#facebook" className="block">

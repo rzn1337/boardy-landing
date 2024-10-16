@@ -1,8 +1,8 @@
-import Hero from "./Hero";
+import Hero from "./Hero/Hero";
 import Navbar from "./Navbar";
-import Marquee from "./Marquee";
-import Features from "./Features";
-import Footer from "./Footer";
-import Pricing from "./Pricing";
+import Partners from "./Partners/Partners";
+import Features from "./Features/Features";
+import Footer from "./Footer/Footer";
+import Pricing from "./Pricing/Pricing";
 
-export { Hero, Navbar, Marquee, Features, Footer, Pricing };
+export { Hero, Navbar, Partners, Features, Footer, Pricing };

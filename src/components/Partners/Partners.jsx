@@ -1,19 +1,10 @@
-function PartnerShowcase() {
-    const logos = [
-        "/images/companylogo1.svg",
-        "/images/companylogo2.svg",
-        "/images/companylogo3.svg",
-        "/images/companylogo4.svg",
-        "/images/companylogo5.svg",
-        "/images/companylogo6.svg",
-        "/images/companylogo7.svg",
-        "/images/companylogo8.svg",
-    ];
+import { logos } from "./partnersContent";
 
+function Partners() {
     return (
-        <section className="bg-gray-100 py-36" id="companies">
+        <section className="bg-gray-100 py-36" id="partners">
             <div className="container mx-auto text-center mb-8 px-10">
-                <h2 className="text-4xl pb-10 font-thin">
+                <h2 className="text-4xl pb-10 font-light">
                     Trusted by Leading Companies
                 </h2>
             </div>
@@ -45,4 +36,4 @@ function PartnerShowcase() {
     );
 }
 
-export default PartnerShowcase;
+export default Partners;

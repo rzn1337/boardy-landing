@@ -10,7 +10,7 @@ export default {
                 },
             },
             animation: {
-                slide: "slide 30s infinite linear",
+                slide: "slide 40s infinite linear",
             },
             fontFamily: {
                 sans: ["Montserrat", "sans-serif"], // Set Montserrat as the default sans font

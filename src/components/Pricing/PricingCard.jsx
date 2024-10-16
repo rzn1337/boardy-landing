@@ -1,4 +1,4 @@
-const Card = ({
+const PricingCard = ({
     title,
     description,
     price,
@@ -8,7 +8,7 @@ const Card = ({
 }) => {
     return (
         <div
-            className={`relative flex flex-col justify-between border border-gray-200 rounded-lg shadow-lg p-6 transition-transform duration-300 ${
+            className={`relative flex flex-col justify-between border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300 ${
                 mostPopular ? "transform scale-105 border-blue-500" : ""
             }`}
         >
@@ -43,4 +43,4 @@ const Card = ({
     );
 };
 
-export default Card;
+export default PricingCard;
