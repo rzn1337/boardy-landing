@@ -7,7 +7,6 @@ const Hero = () => {
             className="bg-black text-white text-center py-24 relative min-h-screen flex items-center"
             id="hero"
         >
-            <div className="absolute inset-0 bg-black hero-grid"></div>
 
             <div className="container relative mx-auto px-6 lg:px-12">
                 <div className="max-w-4xl mx-auto text-center pt-10 pb-4">
@@ -29,6 +28,13 @@ const Hero = () => {
                     >
                         <MoveRightIcon className="ml-2" />
                     </Button>
+                </div>
+                <div className="mt-10">
+                    <img
+                        src="/images/heroimage.png"
+                        alt="Boardy app in action"
+                        className="mx-auto rounded-lg shadow-lg w-full md:w-3/5"
+                    />
                 </div>
             </div>
         </section>

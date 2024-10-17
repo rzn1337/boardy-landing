@@ -38,19 +38,3 @@ body {
 section {
     scroll-margin-top: 60px;
 }
-
-@layer utilities {
-    .hero-grid {
-        background-image: linear-gradient(
-                to right,
-                rgba(255, 255, 255, 0.1) 1px,
-                transparent 1px
-            ),
-            linear-gradient(
-                to bottom,
-                rgba(255, 255, 255, 0.1) 1px,
-                transparent 1px
-            );
-        background-size: 80px 80px;
-    }
-}
