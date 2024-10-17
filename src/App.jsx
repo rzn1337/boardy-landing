@@ -12,13 +12,19 @@ import "./index.css";
 function App() {
     return (
         <>
-            <Navbar />
-            <Hero />
-            <Partners />
-            <Features />
-            <Testimonials />
-            <Pricing />
-            <Footer />
+            <nav>
+                <Navbar />
+            </nav>
+            <main>
+                <Hero />
+                <Partners />
+                <Features />
+                <Testimonials />
+                <Pricing />
+            </main>
+            <footer>
+                <Footer />
+            </footer>
         </>
     );
 }
