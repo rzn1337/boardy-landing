@@ -1,9 +1,5 @@
-import React, { Suspense, lazy } from "react";
 import { MoveRightIcon } from "lucide-react";
 import Button from "../Button";
-
-// Lazy load the image
-const HeroImage = lazy(() => import("./HeroImage"));
 
 const Hero = () => {
     return (
@@ -11,6 +7,7 @@ const Hero = () => {
             className="bg-black text-white text-center py-24 relative min-h-screen flex items-center"
             id="hero"
         >
+
             <div className="container relative mx-auto px-6 lg:px-12">
                 <div className="max-w-4xl mx-auto text-center pt-10 pb-4">
                     <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight animate-fade-in">
@@ -32,12 +29,12 @@ const Hero = () => {
                         <MoveRightIcon className="ml-2" />
                     </Button>
                 </div>
-
                 <div className="mt-10">
-                    {/* Suspense to lazy-load the image */}
-                    <Suspense fallback={<div className="text-white">Loading image...</div>}>
-                        <HeroImage />
-                    </Suspense>
+                    <img
+                        src="/images/heroimage.png"
+                        alt="Boardy app in action"
+                        className="mx-auto rounded-lg shadow-lg w-full md:w-3/5"
+                    />
                 </div>
             </div>
         </section>
