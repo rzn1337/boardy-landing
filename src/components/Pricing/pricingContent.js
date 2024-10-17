@@ -13,7 +13,7 @@ export const plans = [
     },
     {
         name: "Pro",
-        price: "$250",
+        price: "$99",
         description: "Perfect for small teams and advanced collaboration.",
         features: [
             "Unlimited Whiteboards",
@@ -25,7 +25,7 @@ export const plans = [
     },
     {
         name: "Enterprise",
-        price: "$1000",
+        price: "$999",
         description: "Tailored solutions for large scale organizations.",
         features: [
             "Custom Features",

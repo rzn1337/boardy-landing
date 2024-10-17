@@ -10,7 +10,7 @@ const PricingCard = ({
 }) => {
     return (
         <div
-            className={`relative flex flex-col justify-between border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300 ${
+            className={`relative flex flex-col justify-between border border-gray-200 bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300 ${
                 mostPopular ? "transform scale-105 border-blue-500" : ""
             }`}
         >

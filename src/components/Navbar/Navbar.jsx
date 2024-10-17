@@ -35,7 +35,7 @@ const Navbar = () => {
                         <li key={item}>
                             <a
                                 href={`#${item.toLowerCase()}`}
-                                className="text-gray-600 hover:text-red-400"
+                                className="text-gray-400 text-sm hover:text-red-400"
                                 onClick={handleSmoothScroll}
                             >
                                 {item}

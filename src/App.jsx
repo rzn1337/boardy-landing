@@ -1,5 +1,13 @@
-import { Hero, Navbar, Partners, Features, Footer, Pricing } from "./components";
-import './index.css';
+import {
+    Hero,
+    Navbar,
+    Partners,
+    Features,
+    Footer,
+    Pricing,
+    Testimonials,
+} from "./components";
+import "./index.css";
 
 function App() {
     return (
@@ -8,6 +16,7 @@ function App() {
             <Hero />
             <Partners />
             <Features />
+            <Testimonials />
             <Pricing />
             <Footer />
         </>
