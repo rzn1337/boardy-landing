@@ -7,15 +7,7 @@ const Hero = () => {
             className="bg-black text-white text-center py-24 relative min-h-screen flex items-center"
             id="hero"
         >
-            {/* CSS Grid background */}
-            <div
-                className="absolute inset-0 bg-black"
-                style={{
-                    backgroundImage:
-                        "linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px)",
-                    backgroundSize: "80px 80px",
-                }}
-            ></div>
+            <div className="absolute inset-0 bg-black hero-grid"></div>
 
             <div className="container relative mx-auto px-6 lg:px-12">
                 <div className="max-w-4xl mx-auto text-center pt-10 pb-4">
