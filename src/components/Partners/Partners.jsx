@@ -9,7 +9,7 @@ function Partners() {
                 </h2>
             </div>
 
-            {/* Marquee Wrapper */}
+            {/* marquee componnet */}
             <div className="overflow-hidden relative w-full">
                 {/* Logos container */}
                 <div className="flex space-x-10 animate-slide">
@@ -21,10 +21,9 @@ function Partners() {
                             className="h-20 w-auto"
                         />
                     ))}
-                    {/* Duplicate logos for infinite scroll effect */}
                     {logos.map((logo, index) => (
                         <img
-                            key={`dup-${index}`}
+                            key={`l${index}`}
                             src={logo}
                             alt={`Company logo ${index + 1}`}
                             className="h-20 w-auto"
