@@ -3,14 +3,30 @@ import Button from "../Button";
 
 const Hero = () => {
     return (
-        <section className="bg-black text-white text-center py-24" id="hero">
-            <div className="container mx-auto px-6 lg:px-12">
+        <section
+            className="bg-black text-white text-center py-24 relative min-h-screen flex items-center"
+            id="hero"
+        >
+            {/* CSS Grid background */}
+            <div
+                className="absolute inset-0 bg-black"
+                style={{
+                    backgroundImage:
+                        "linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px)",
+                    backgroundSize: "80px 80px",
+                }}
+            ></div>
+
+            <div className="container relative mx-auto px-6 lg:px-12">
                 <div className="max-w-4xl mx-auto text-center pt-10 pb-4">
                     <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight animate-fade-in">
-                        Innovate in Real-Time with <span className="text-red-400">boardy</span>.
+                        Innovate in Real-Time with{" "}
+                        <span className="text-red-400">boardy</span>.
                     </h1>
                     <p className="text-lg md:text-xl font-light mb-12 leading-relaxed max-w-3xl mx-auto text-gray-300">
-                        Your remote team's all-in-one whiteboard for seamless collaboration. Real-time, infinite canvas, with tools that bring ideas to life.
+                        Your remote team's all-in-one whiteboard for seamless
+                        collaboration. Real-time, infinite canvas, with tools
+                        that bring ideas to life.
                     </p>
                 </div>
 
@@ -22,19 +38,9 @@ const Hero = () => {
                         <MoveRightIcon className="ml-2" />
                     </Button>
                 </div>
-
-                <div className="mt-10">
-                    <img
-                        src="/images/heroimage.png"
-                        alt="Boardy app in action"
-                        loading="lazy"
-                        className="mx-auto rounded-2xl shadow-2xl w-full lg:w-2/3 transform hover:scale-105 transition-transform"
-                    />
-                </div>
             </div>
         </section>
     );
 };
 
 export default Hero;
-
